@@ -35,10 +35,13 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ---
 
-## Install
+## Clone the Project
 
     $ git clone https://github.com/prajwalj27/mern-socketio-backend
     $ cd mern-socketio-backend
+    
+## Install Dependencies
+    $ npm i
 
 ## Running the project
 
