@@ -43,7 +43,7 @@ app.post("/update/:id", async (req, res) => {
     {
       $set: {
         name: req.body.name,
-        description: req.body.description,
+        brand: req.body.brand,
         rating: req.body.rating,
         price: req.body.price,
       },
