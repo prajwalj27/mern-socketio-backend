@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require("express");
 const app = express();
-require('dotenv').config();
 
 const productModel = require("./products_module");
 const product = productModel.Product;
